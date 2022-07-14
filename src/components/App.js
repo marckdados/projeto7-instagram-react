@@ -1,9 +1,11 @@
-import Topo from "./Topo";
+import Header from "./Header";
+import Corpo from "./Corpo";
 
 export default function App() {
   return (
     <div>
-      <Topo />
+      <Header />
+      <Corpo />
     </div>
   );
 }
