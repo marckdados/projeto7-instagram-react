@@ -1,9 +1,8 @@
 export default function Stories(props) {
-  console.log(props.src);
   return (
     <div>
-      <img class="foto-stores" src={props.src} alt="" />
-      <span>{props.storesUsuario}</span>
+      <img class="foto-stories" src={props.userPhoto} alt="oi" />
+      <span>{props.username}</span>
     </div>
   );
 }

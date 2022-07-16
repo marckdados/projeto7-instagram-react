@@ -1,60 +1,29 @@
-import Stories from "./Stories";
+import CaixaStories from "./CaixaStories";
+import Posts from "./Posts";
 export default function LadoEsquerdo() {
+  const posts = [
+    {
+      nomeUsuario: "claudio",
+      imagemPost:
+        "https://images.unsplash.com/photo-1657828514003-97c32496979a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    },
+    {
+      nomeUsuario: "ratinhoo",
+      imagemPost:
+        "https://images.unsplash.com/photo-1657788913477-268657a2ea29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1655&q=80",
+    },
+    {
+      nomeUsuario: "xaropinhoo",
+      imagemPost:
+        "https://images.unsplash.com/photo-1657664049378-c8aadfe323f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    },
+  ];
   return (
     <div class="esquerdo">
-      <div class="caixa-stories">
-        <Stories src="./images/imagem-controle.jpg" storesUsuario="tudojogos" />
-        <Stories src="./images/joseph-rebecca.jpg" storesUsuario="JosephRe" />
-        <div>
-          <img
-            class="foto-stores"
-            src="https://img.utdstc.com/icon/c28/b9e/c28b9efbfb9482de979459bc95d9951e18ee05228dab49c6dac9b70ee800c9c6:200"
-            alt=""
-          />
-          <span>twitch</span>
-        </div>
-        <div>
-          <img
-            class="foto-stores"
-            src="https://img.utdstc.com/icon/c28/b9e/c28b9efbfb9482de979459bc95d9951e18ee05228dab49c6dac9b70ee800c9c6:200"
-            alt=""
-          />
-          <span>twitch</span>
-        </div>
-        <div>
-          <img
-            class="foto-stores"
-            src="https://img.utdstc.com/icon/c28/b9e/c28b9efbfb9482de979459bc95d9951e18ee05228dab49c6dac9b70ee800c9c6:200"
-            alt=""
-          />
-          <span>twitch</span>
-        </div>
-        <div>
-          <img
-            class="foto-stores"
-            src="https://img.utdstc.com/icon/c28/b9e/c28b9efbfb9482de979459bc95d9951e18ee05228dab49c6dac9b70ee800c9c6:200"
-            alt=""
-          />
-          <span>twitch</span>
-        </div>
-        <div>
-          <img
-            class="foto-stores"
-            src="https://img.utdstc.com/icon/c28/b9e/c28b9efbfb9482de979459bc95d9951e18ee05228dab49c6dac9b70ee800c9c6:200"
-            alt=""
-          />
-          <span>twitch</span>
-        </div>
-        <div>
-          <img
-            class="foto-stores"
-            src="https://img.utdstc.com/icon/c28/b9e/c28b9efbfb9482de979459bc95d9951e18ee05228dab49c6dac9b70ee800c9c6:200"
-            alt=""
-          />
-          <span>twitch</span>
-        </div>
-        <ion-icon class="botao-stores" name="chevron-forward-circle"></ion-icon>
-      </div>
+      <CaixaStories />
+      {posts.map((post) => (
+        <Posts src={post.imagemPost} usuario={post.nomeUsuario} />
+      ))}
     </div>
   );
 }

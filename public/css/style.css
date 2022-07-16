@@ -83,18 +83,100 @@ header {
 }
 
 .caixa-stories span {
-  font-size: 14px;
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
   font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.botao-stores {
+.botao-stories {
   font-size: 30px;
   color: #f5f5f5;
   position: absolute;
   right: 0;
 }
-.foto-stores {
+.foto-stories {
+  object-fit: cover;
   height: 55px;
   width: 55px;
   border-radius: 50%;
   border: 2px solid red;
+}
+
+.caixa-posts {
+  width: 100%;
+}
+
+.post {
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin: 20px 0;
+}
+
+.foto-post {
+  width: 100%;
+  height: 100%;
+}
+.superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.superior div {
+  display: flex;
+  align-items: center;
+  margin: 10px 15px;
+}
+.superior img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.superior span {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.more ion-icon {
+  font-size: 15px;
+}
+.icones-inferior {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.icones-inferior ion-icon {
+  font-size: 18px;
+}
+.icones-inferior div {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.icones-inferior div:first-child {
+  width: 12%;
+}
+.comentarios {
+  margin: 10px 10px;
+  display: flex;
+  align-items: center;
+}
+.comentarios span {
+  font-size: 12px;
+  margin: 0 5px;
+}
+.comentarios a {
+  text-decoration: none;
+  color: initial;
+  font-weight: bold;
+}
+.comentarios img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
