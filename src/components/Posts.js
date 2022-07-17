@@ -5,9 +5,15 @@ export default function Posts(props) {
   return (
     <div class="caixa-posts">
       <div class="post">
-        <SuperiorPost />
+        <SuperiorPost
+          imagemUsuario={props.imagemUsuario}
+          usuarioPost={props.usuarioPost}
+        />
         <img class="foto-post" src={props.src} alt="oi" />
-        <InferiorPost usuario={props.usuario} />
+        <InferiorPost
+          usuarioInteracao={props.usuarioInteracao}
+          imagemUsuarioInteracao={props.imagemUsuarioInteracao}
+        />
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
-export default function SuperiorPost() {
+export default function SuperiorPost(props) {
   return (
     <div class="superior">
       <div>
-        <img src="./images/bianca" alt="" />
-        <span>pescocofino</span>
+        <img src={props.imagemUsuario} alt="" />
+        <span>{props.usuarioPost}</span>
       </div>
       <div class="more">
         <ion-icon name="ellipsis-horizontal"></ion-icon>
