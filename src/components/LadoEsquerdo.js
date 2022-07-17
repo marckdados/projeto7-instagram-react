@@ -21,6 +21,7 @@ export default function LadoEsquerdo() {
           nomeUsuarioInteracao: "gabigol",
           imagemUsuarioInteracao:
             "https://images.pexels.com/photos/12740933/pexels-photo-12740933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          numeroCurtidas: 2290,
         },
       ],
     },
@@ -43,6 +44,7 @@ export default function LadoEsquerdo() {
           nomeUsuarioInteracao: "gabigol",
           imagemUsuarioInteracao:
             "https://images.pexels.com/photos/12740933/pexels-photo-12740933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          numeroCurtidas: 605,
         },
       ],
     },
@@ -65,6 +67,7 @@ export default function LadoEsquerdo() {
           nomeUsuarioInteracao: "gabigol",
           imagemUsuarioInteracao:
             "https://images.pexels.com/photos/12740933/pexels-photo-12740933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          numeroCurtidas: 325,
         },
       ],
     },
@@ -81,6 +84,7 @@ export default function LadoEsquerdo() {
           imagemUsuarioInteracao={
             post.usuarioInteracao[0].imagemUsuarioInteracao
           }
+          numeroCurtidas={post.usuarioInteracao[0].numeroCurtidas}
         />
       ))}
     </div>

@@ -13,6 +13,7 @@ export default function Posts(props) {
         <InferiorPost
           usuarioInteracao={props.usuarioInteracao}
           imagemUsuarioInteracao={props.imagemUsuarioInteracao}
+          numeroCurtidas={props.numeroCurtidas}
         />
       </div>
     </div>
