@@ -8,24 +8,24 @@ const outrosUsuarios = [
       "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pitangus_sulphuratus_3.jpg",
   },
   {
-    nome: "Cleber",
+    nome: "meuloro",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pitangus_sulphuratus_3.jpg",
+      "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
-    nome: "Cleber",
+    nome: "tiaomalvado",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pitangus_sulphuratus_3.jpg",
+      "https://images.pexels.com/photos/97533/pexels-photo-97533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
-    nome: "Cleber",
+    nome: "jubileu",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pitangus_sulphuratus_3.jpg",
+      "https://images.pexels.com/photos/2662434/pexels-photo-2662434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
-    nome: "Cleber",
+    nome: "jailsontrad",
     imagem:
-      "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pitangus_sulphuratus_3.jpg",
+      "https://images.pexels.com/photos/12793815/pexels-photo-12793815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
 ];
 
