@@ -23,7 +23,9 @@ header {
   left: 0;
   z-index: 2;
 }
-
+.topo-mobile {
+  display: none;
+}
 .topo {
   width: 70%;
   display: flex;
@@ -181,9 +183,141 @@ header {
   border-radius: 50%;
 }
 
-.cor-clicada {
+.cor-inicial {
   color: black;
+  cursor: pointer;
 }
 .cor-clicada {
   color: crimson;
+  cursor: pointer;
+}
+.direito {
+  width: 40%;
+}
+.sidebar {
+  margin-top: 20px;
+  width: 293px;
+  margin-top: 88px;
+}
+.perfil-principal {
+  margin: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.perfil-principal img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.perfil-principal span {
+  font-size: 12px;
+  font-weight: 500;
+}
+.perfil-principal p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #979797;
+}
+.perfil {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.perfil img {
+  margin-right: 10px;
+}
+.sugestao {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 10px 0;
+}
+.sugestao p {
+  font-weight: 500;
+}
+.outro img {
+  width: 30px;
+  height: 30px;
+}
+.outro {
+  display: flex;
+  margin: 10px 0;
+}
+.outro div {
+  margin: 0 5px 0 0;
+}
+.outro .div-seguir {
+  margin: 0 0 0 90px;
+}
+.seguir {
+  color: #139ef2;
+}
+footer {
+  display: none;
+}
+@media (max-width: 974px) {
+  main {
+    display: flex;
+  }
+  .direito {
+    display: none;
+  }
+  .conteudo {
+    display: flex;
+    justify-content: center;
+  }
+  .esquerdo {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .caixa-stories {
+    width: 100%;
+  }
+}
+@media (max-width: 614px) {
+  footer {
+    position: fixed;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+  }
+  .topo {
+    display: none;
+  }
+  .topo-mobile {
+    width: 100%;
+    display: initial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topo-mobile ion-icon {
+    font-size: 1.3em;
+  }
+  .conteudo {
+    width: 100%;
+  }
+
+  .esquerdo {
+    width: 100%;
+  }
+  .direito {
+    display: none;
+  }
+  .caixa-stories {
+    width: 100%;
+    background-color: #dbdbdb;
+    border: none;
+  }
+  .post {
+    width: 100%;
+  }
 }

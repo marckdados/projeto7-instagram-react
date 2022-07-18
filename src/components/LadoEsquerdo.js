@@ -13,7 +13,7 @@ export default function LadoEsquerdo() {
       ],
       //Imagem do Post
       imagemPost:
-        "https://images.unsplash.com/photo-1657828514003-97c32496979a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "https://images.pexels.com/photos/12025241/pexels-photo-12025241.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
 
       //Usuario parte Inferior
       usuarioInteracao: [
